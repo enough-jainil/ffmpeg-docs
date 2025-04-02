@@ -13,8 +13,8 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <img
-          src="/img/yt-dlp-logo.png"
-          alt="yt-dlp Logo"
+          src="/img/ffmpeg-logo.png"  // Changed logo
+          alt="FFmpeg Logo"
           className={styles.heroLogo}
           width={200}
           height={200}
@@ -24,9 +24,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/what-is-yt-dlp"
+            to="/docs/what-is-ffmpeg"  // Updated docs path
           >
-            Get Started with yt-dlp ⏱️
+            Get Started with FFmpeg ⏱️
           </Link>
         </div>
       </div>
@@ -39,7 +39,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="A comprehensive guide to the powerful video downloader"
+      description="A comprehensive guide to the powerful multimedia framework"  // Updated description
     >
       <HomepageHeader />
       <Disclaimer />

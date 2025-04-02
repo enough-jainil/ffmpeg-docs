@@ -8,67 +8,62 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Powerful Video Downloading",
-    Svg: require("@site/static/img/Downloading.svg").default,
+    title: "Powerful Media Processing",
+    Svg: require("@site/static/img/Processing.svg").default,
     description: (
       <>
-        yt-dlp offers advanced capabilities for downloading videos from YouTube
-        and thousands of other sites, with support for various formats and
-        quality options.
+        FFmpeg provides comprehensive capabilities for processing audio, video,
+        and other multimedia files with support for numerous formats and codecs.
       </>
     ),
   },
   {
-    title: "Extensive Site Compatibility",
-    Svg: require("@site/static/img/Compatibility.svg").default,
+    title: "Format Conversion",
+    Svg: require("@site/static/img/Conversion.svg").default,
     description: (
       <>
-        Beyond YouTube, yt-dlp supports a vast array of video hosting platforms,
-        making it a versatile tool for content creators and enthusiasts alike.
+        Convert between virtually any media format. FFmpeg supports hundreds of
+        audio and video codecs, making it the ultimate tool for format conversion.
       </>
     ),
   },
   {
-    title: "Open Source and Customizable",
-    Svg: require("@site/static/img/Source.svg").default,
+    title: "Video & Audio Filtering",
+    Svg: require("@site/static/img/Filter.svg").default,
     description: (
       <>
-        As an open-source project, yt-dlp can be extended and customized to fit
-        your specific needs. Contribute to its development or create your own
-        plugins and features.
+        Apply complex filters to modify your media files. From simple scaling to
+        advanced effects, FFmpeg's filtering system offers endless possibilities.
       </>
     ),
   },
   {
-    title: "Advanced Format Selection",
-    Svg: require("@site/static/img/Format.svg").default,
+    title: "Stream Manipulation",
+    Svg: require("@site/static/img/Stream.svg").default,
     description: (
       <>
-        Choose from a wide range of video and audio formats, resolutions, and
-        codecs. yt-dlp's intelligent format selection ensures you get the best
-        quality available.
+        Handle live streams, network protocols, and real-time media processing.
+        Perfect for streaming services, broadcasting, and live media applications.
       </>
     ),
   },
   {
-    title: "Playlist and Channel Support",
-    Svg: require("@site/static/img/Playlist.svg").default,
+    title: "Hardware Acceleration",
+    Svg: require("@site/static/img/Hardware.svg").default,
     description: (
       <>
-        Easily download entire playlists, channels, or user uploads with a
-        single command. yt-dlp handles pagination and extraction efficiently.
+        Leverage hardware acceleration for faster processing. Support for NVIDIA
+        NVENC, AMD AMF, Intel QSV, and other hardware encoders/decoders.
       </>
     ),
   },
-
   {
-    title: "Metadata Extraction",
-    Svg: require("@site/static/img/Metadata.svg").default,
+    title: "Cross-Platform Support",
+    Svg: require("@site/static/img/Platform.svg").default,
     description: (
       <>
-        Extract rich metadata from videos, including titles, descriptions,
-        thumbnails, and more. Perfect for archiving or integrating with media
-        management tools.
+        Run FFmpeg on virtually any platform. Available for Windows, macOS, Linux,
+        and many other operating systems with consistent functionality.
       </>
     ),
   },
