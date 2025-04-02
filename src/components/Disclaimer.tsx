@@ -8,7 +8,7 @@ export default function Disclaimer(): JSX.Element {
           Disclaimer
         </h2>
         <p className="max-w-3xl mx-auto mb-6 text-lg leading-relaxed text-ifm-color-primary-darkest">
-          This is not the official yt-dlp documentation. I am a fan of yt-dlp
+          This is not the official FFmpeg documentation. I am a fan of FFmpeg
           and created this documentation for my personal use. If you'd like to
           contribute to this unofficial documentation, you can do so on my
           GitHub repository.
@@ -16,15 +16,15 @@ export default function Disclaimer(): JSX.Element {
         <div className="flex items-center justify-center gap-4 flex-wrap">
           <a
             className="button button--secondary button--lg bg-ifm-color-primary text-white"
-            href="https://github.com/yt-dlp/yt-dlp"
+            href="https://git.ffmpeg.org/ffmpeg.git"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Official yt-dlp Project
+            Official FFmpeg Project
           </a>
           <a
             className="button button--secondary button--lg bg-ifm-color-primary text-white"
-            href="https://github.com/enough-jainil/yt-dlp-doc"
+            href="https://github.com/enough-jainil/ffmpeg-docs"
             target="_blank"
             rel="noopener noreferrer"
           >
